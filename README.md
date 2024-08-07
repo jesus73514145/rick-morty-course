@@ -68,3 +68,47 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+## COMANDOS PARA CREAR ESTE PROYECTO EN GITHUB 
+
+git init
+git add .
+git commit -m "Archivos iniciales" -m "Co-authored-by: AlbertoSoria1998 < albertosoriasoria74@gmail.com >"     QUTAR LSO ESPACIONS DEL CORREO
+git remote add origin https://github.com/jesus73514145/rick-morty-course.git
+git push -u origin master
+
+
+## COMANDO PARA CREAR EL PROEYCTO DE REACT
+
+npx create-react-app rick-morty     
+
+## COMANDO PARA HABILITAR BEN POWERSHELL
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser 
+
+## COMANDO PARA CORRER EL PROYECTO EN FORMA DEV DE ACUERDO AL PACKAGE.SJON SU SCRIPT EL PRIMERO
+
+yarn dev
+
+## COMANDO PARA CORRER EL PROYECTO EN FORMA START DE ACUERDO AL PACKAGE.SJON SU SCRIPT EL PRIMERO
+
+npm start  
+
+
+## COMANDO PARA INSTALAR EL PAQUETE DE:
+
+npm i react-router-dom 
+
+## link del curso de este proyecto 
+
+https://www.udemy.com/course/react-js-para-principiantes-desde-cero-curso-gratuito/learn/lecture/30612448#overview
+
+## link del repositorio de este proyecto
+
+https://github.com/ratasi/rick-morty/
+
