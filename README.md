@@ -130,3 +130,23 @@ yarn build
 
 en el terminal del proyecto
 
+
+![alt text](image.png)
+
+
+https://app.netlify.com/teams/yisusoria/sites
+
+## SITIO WEB EN NETLIFY
+
+https://harmonious-licorice-0ccaf2.netlify.app/
+
+SE va a este link
+
+https://app.netlify.com/drop
+
+ y se sube la carpeta build de este proyecto y listo.
+
+ mi correo es yisusoria
+
+github
+$
