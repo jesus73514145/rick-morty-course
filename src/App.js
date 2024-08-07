@@ -16,15 +16,20 @@ function App() {
     setCharacters(characterApi.results);
   };
 
-   console.log(characters);
-
   return (
     <div className="App">
       <header className="App-header">
         <h1 className='title'>Rick & Morty</h1>
-        <Characters />
-        <img src={imageRickMorty} alt="Rick & Morty" className='img-home'></img>
-        <button onClick={reqApi} className='btn-search'>Buscar Personajes</button>
+        {characters ? (
+          <Characters characters={characters} />
+        ) : (
+          <>
+          <img src={imageRickMorty} alt="Rick & Morty" className='img-home'></img>
+          <button onClick={reqApi} className='btn-search'>Buscar Personajes</button>
+          </>
+        )}
+        
+        
       </header>
     </div>
   );
