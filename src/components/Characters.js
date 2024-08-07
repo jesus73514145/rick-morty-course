@@ -1,10 +1,21 @@
 // puse rfc y sale y elegi el rfcredux 
 
 export default function Characters(props) {
-    console.log(props);
+  const { characters } = props;
+
   return (
-    <div>
-        <h1>Desde Characters JS</h1>
+    <div className="characters">
+        <h1>Personajes</h1>
+        <span className="back-home">Volver a la home</span>
+
+        <div className="container-characters">
+            {characters.map((character, index) => (
+                // return implicito
+                <div className="character-container" key={index}>
+                    <p>{character.name}</p>
+                </div>
+            ))}
+        </div>
     </div>
   );
 }
