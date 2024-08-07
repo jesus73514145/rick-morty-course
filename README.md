@@ -112,3 +112,21 @@ https://www.udemy.com/course/react-js-para-principiantes-desde-cero-curso-gratui
 
 https://github.com/ratasi/rick-morty/
 
+
+## RECURSOS PARA SUBIR UNA PAGINA WEB A UN DOMINIO PUBLICO
+
+https://www.netlify.com/
+
+https://app.netlify.com/drop
+
+
+https://github.com/settings/installations/53581831
+
+https://app.netlify.com/signup/start/connect/repos
+
+hacer un 
+
+yarn build 
+
+en el terminal del proyecto
+
